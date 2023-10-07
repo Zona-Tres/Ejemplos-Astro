@@ -6,12 +6,12 @@ Puedes ver el funcionamiento de esta app en [este video](https://www.youtube.com
 
 * Clona este repositorio:
 ```bash
-git clone 
+git clone https://github.com/Zona-Tres/Ejemplos-Astro.git
 ```
 
 * Navega al directorio del proyecto:
 ```bash
-cd SocialCRUD
+cd Ejemplos-Astro
 ```
 
 * Instala las dependencias:
