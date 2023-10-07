@@ -1,4 +1,7 @@
 service: () -> {
-    getMessage: () -> (text) query;
-    setMessage: (text) -> ();
+    createPost: (text, vec nat8) -> (record {postCreator:principal; message:text; image:vec nat8});
+    deletePost: (principal) -> (variant {Ok:record {postCreator:principal; message:text; image:vec nat8}; Err:variant {PostDoesNotExist:principal}});
+    getPost: (principal) -> (opt record {postCreator:principal; message:text; image:vec nat8}) query;
+    getPosts: () -> (vec record {postCreator:principal; message:text; image:vec nat8}) query;
+    updatePost: (principal, text) -> (variant {Ok:record {postCreator:principal; message:text; image:vec nat8}; Err:variant {PostDoesNotExist:principal}});
 }

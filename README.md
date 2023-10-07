@@ -22,11 +22,6 @@ npm install
 dfx start --background --clean
 ```
 
-* Genera las declaraciones para que el frontend funcione:
-```bash
-dfx generate
-```
-
 * Despliega el canister a tu replica:
 ```bash
 dfx deploy
@@ -41,8 +36,3 @@ URLs:
 ```
 
 Puedes hacer click en el link que aparece en tu terminal e interactuar directamente con el canister utilizando la interfaz Candid.
-
-O puedes crear un servidor de desarrollo para visualizar tu canister con tu frontend en modo desarrollo:
-```bash
-npm run dev
-```
