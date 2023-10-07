@@ -1,5 +1,7 @@
 # SOCIAL CRUD
 
+Puedes ver el funcionamiento de esta app en [este video](https://www.youtube.com/watch?v=OWq9ZgK30lE). 
+
 ## Como correr:
 
 * Clona este repositorio:
